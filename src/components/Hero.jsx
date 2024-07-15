@@ -32,7 +32,7 @@ const Hero = () => {
                     <motion.p variants={container(1)}
                     initial="hidden" 
                     animate="visible"
-                    className="my-2 max-w-xl py-6 font-light tracking-tighter text-l">
+                    className="my-2 max-w-xl py-6 font-light tracking-tighter text-xl">
                         Welcome to my professional portfolio! I am a dedicated and passionate student currently pursuing a B.Tech in Artificial Intelligence and Data Science at Shiv Nadar University, Chennai. My academic journey has been driven by a profound interest in the transformative power of AI and data-driven technologies. Through rigorous coursework and hands-on projects, I have honed my skills in various facets of AI, including machine learning, data analytics, and deep learning. I am committed to leveraging these skills to create innovative solutions that address real-world challenges. Explore my portfolio to learn more about my projects, skills, and the impact I aim to make in the field of AI and Data Science.
                     </motion.p>
                 </div>
