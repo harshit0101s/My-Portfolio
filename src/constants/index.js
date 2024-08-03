@@ -1,6 +1,7 @@
 import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -23,6 +24,13 @@ export const PROJECTS = [
     description:
       "Developed a deep learning model to classify audio samples into different music genres using CNNs and transfer learning techniques",
     technologies: ["Python", "TensorFlow", "Keras", "Librosa", "Matplotlib", "GitHub"],
+  },
+  {
+    title: "Book Recommendation System",
+    image: project4,
+    description:
+      "Developed a ML project using popularity based recommendaing system and collaborative filtering to predict similar books to users.",
+    technologies: ["Python", "Pickle", "Flask", "sklearn", "HTML", "CSS"],
   },
   {
     title: "Flash Chat, (Real-time messaging application)",
