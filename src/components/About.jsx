@@ -37,5 +37,4 @@ Thank you for visiting my portfolio. I look forward to connecting with professio
     </div>
   )
 }
-
 export default About
