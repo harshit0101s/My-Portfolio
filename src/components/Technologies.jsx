@@ -1,9 +1,8 @@
 
 import { motion } from "framer-motion";
-import { FaDatabase, FaNodeJs } from 'react-icons/fa';
+import { FaDatabase } from 'react-icons/fa';
 import { RiReactjsLine } from 'react-icons/ri';
-import { SiDart, SiFlutter } from 'react-icons/si';
-import { TbBrandNextjs } from 'react-icons/tb';
+import { SiDart, SiFlutter, SiJavascript } from 'react-icons/si';
 
 
 const iconVariants =(duration) => ({
@@ -44,14 +43,7 @@ const Technologies = () => {
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-          <TbBrandNextjs className="text-7xl" />
-        </motion.div>
-        <motion.div 
-        variants={iconVariants(5)}
-        initial="initial"
-        animate="animate"
-        className="rounded-2xl border-4 border-neutral-800 p-4">
-          <FaNodeJs className="text-7xl text-green-500" />
+          <SiJavascript className="text-7xl" />
         </motion.div>
         <motion.div
         variants={iconVariants(2)}
